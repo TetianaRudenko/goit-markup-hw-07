@@ -1,0 +1,27 @@
+.logo {
+    display: block;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    color: $brand-color;
+    
+    text-decoration: none;
+    font-family: $logo-font-family;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo__accent {
+
+    color: $accent-color;
+}
+
+.logo--white-color {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+
+    color: $primary-white-color;
+}

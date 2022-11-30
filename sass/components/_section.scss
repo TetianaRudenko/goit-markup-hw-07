@@ -1,0 +1,24 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.section--no-padding-top {
+    padding-top: 0px;
+
+}
+.section--secondary-bg-color {
+    background-color: $secondary-background-color;
+}
+
+.section__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: $secondary-text-color;
+
+    /*font-weight: 700;defolt for title*/
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
